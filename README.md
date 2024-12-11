@@ -3,6 +3,7 @@
 🖥️ Componentes e Views mais importantes do Front-End
 
 MovieHomeContainer
+
 📍 Descrição:
 Esta é a página principal da aplicação no lado visual. Aqui, todos os filmes recebidos da API do backend são exibidos.
 
@@ -10,10 +11,12 @@ Funcionalidade Principal: Sistema de filtros que permite reconstrução da pági
 Tecnologias Utilizadas: React para renderização e manipulação de estados.
 
 MovieDescription
+
 📍 Descrição:
 Esta view exibe informações detalhadas de um filme individual.
 
 Dados Recebidos:
+
 Informações como título, sinopse, gênero e ano vêm da API do backend em formato JSON.
 A imagem também é carregada diretamente do backend.
 
