@@ -83,5 +83,38 @@ Organização em pacotes com responsabilidades claras:
 ## 5️⃣ **Guia de Instalação**
 
 ### 📝 **Passo 1: Clonar o Repositório**
-```bash
 git clone https://github.com/Film-Catalog/BackEndDevelopment
+🔧 Passo 2: Configurar o Banco de Dados
+Adicione no arquivo application.properties:
+
+properties
+Copiar código
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=update
+
+🚀 Passo 3: Executar o Projeto
+bash
+Copiar código
+mvn spring-boot:run
+6️⃣ Testes
+🧪 Tipos de Testes
+✔️ Testes Unitários: Verificação de métodos nas classes de serviço.
+🔗 Testes de Integração: Comunicação correta entre APIs e banco de dados.
+✅ Testes de Aceitação: Cumprimento dos requisitos funcionais.
+7️⃣ Evolução do Projeto
+
+📌 7.1 Adição de Séries
+Criar a classe Series estendendo Media.
+Atualizar a MediaFactory para criar objetos do tipo Series.
+Expandir serviços e controllers com endpoints para séries.
+
+🌟 7.2 Recursos Futuros
+Sistema de recomendação baseado em avaliações.
+Integração com APIs externas (ex.: TMDb) para enriquecer dados de filmes.
+8️⃣ Manutenção
+🔄 Atualização Contínua: Revisão e melhoria do código com base no feedback dos usuários.
+📘 Documentação: Atualizações regulares.
+🛠️ Suporte a Novos Recursos: Planejamento para inclusão de filtros personalizados e análises detalhadas.
+✨ Explore o universo cinematográfico com o Catálogo de Filmes! 🎥
