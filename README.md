@@ -23,9 +23,9 @@ A imagem também é carregada diretamente do backend.
 Funcionalidade:
 Permite acesso rápido às informações detalhadas de cada filme.
 
-## 📖 **Documentação do Sistema**  
+## 📖 **Diagrama de classes**  
 
----
+![image](https://github.com/user-attachments/assets/75332d66-ae12-4194-88c9-2512f2bdb9b9)
 
 ## 1️⃣ **Introdução e Visão Geral**
 
